@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title%}投稿成功！{% endblock %}
+
+{% block contents %}
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col offset-2">
+            <h4>投稿が完了しました。</h4>
+            <a href="{% url 'kontent1:index' %}">トップページへ戻る</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
